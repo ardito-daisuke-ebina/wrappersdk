@@ -1,0 +1,11 @@
+framework module EbinaFramework {
+  umbrella header "EbinaFramework.h"
+  export *
+
+  module * { export * }
+}
+
+module EbinaFramework.Swift {
+  header "EbinaFramework-Swift.h"
+  requires objc
+}
