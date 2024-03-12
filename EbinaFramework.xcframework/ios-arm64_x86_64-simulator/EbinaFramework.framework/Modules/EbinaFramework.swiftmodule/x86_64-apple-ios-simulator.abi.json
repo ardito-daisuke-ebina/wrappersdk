@@ -16,8 +16,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "Abc",
-        "printedName": "Abc",
+        "name": "Article",
+        "printedName": "Article",
         "children": [
           {
             "kind": "Constructor",
@@ -26,14 +26,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Abc",
-                "printedName": "EbinaFramework.Abc",
-                "usr": "s:14EbinaFramework3AbcC"
+                "name": "Article",
+                "printedName": "EbinaFramework.Article",
+                "usr": "s:14EbinaFramework7ArticleC"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:14EbinaFramework3AbcCACycfc",
-            "mangledName": "$s14EbinaFramework3AbcCACycfc",
+            "usr": "s:14EbinaFramework7ArticleCACycfc",
+            "mangledName": "$s14EbinaFramework7ArticleCACycfc",
             "moduleName": "EbinaFramework",
             "declAttributes": [
               "AccessControl"
@@ -42,19 +42,43 @@
           },
           {
             "kind": "Function",
-            "name": "cba",
-            "printedName": "cba()",
+            "name": "fetchList",
+            "printedName": "fetchList(callback:)",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "([Any]) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ]
               }
             ],
             "declKind": "Func",
-            "usr": "s:14EbinaFramework3AbcC3cbaSSyF",
-            "mangledName": "$s14EbinaFramework3AbcC3cbaSSyF",
+            "usr": "s:14EbinaFramework7ArticleC9fetchList8callbackyySayypGc_tF",
+            "mangledName": "$s14EbinaFramework7ArticleC9fetchList8callbackyySayypGc_tF",
             "moduleName": "EbinaFramework",
             "declAttributes": [
               "AccessControl"
@@ -63,8 +87,8 @@
           }
         ],
         "declKind": "Class",
-        "usr": "s:14EbinaFramework3AbcC",
-        "mangledName": "$s14EbinaFramework3AbcC",
+        "usr": "s:14EbinaFramework7ArticleC",
+        "mangledName": "$s14EbinaFramework7ArticleC",
         "moduleName": "EbinaFramework",
         "declAttributes": [
           "AccessControl"
@@ -92,30 +116,16 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/ebina\/Desktop\/EbinaFramework\/EbinaFramework\/Abc.swift",
+      "filePath": "\/Users\/ebina\/Desktop\/EbinaFramework\/EbinaFramework\/TestAlamo.swift",
       "kind": "StringLiteral",
-      "offset": 212,
-      "length": 5,
-      "value": "\"aaa\""
-    },
-    {
-      "filePath": "\/Users\/ebina\/Desktop\/EbinaFramework\/EbinaFramework\/TestMoya.swift",
-      "kind": "StringLiteral",
-      "offset": 204,
-      "length": 23,
-      "value": "\"afsjdalkjfldkasjklfja\""
-    },
-    {
-      "filePath": "\/Users\/ebina\/Desktop\/EbinaFramework\/EbinaFramework\/TestMoya.swift",
-      "kind": "StringLiteral",
-      "offset": 285,
+      "offset": 230,
       "length": 37,
       "value": "\"https:\/\/appdev-room.com\/api\/article\""
     },
     {
-      "filePath": "\/Users\/ebina\/Desktop\/EbinaFramework\/EbinaFramework\/TestMoya.swift",
+      "filePath": "\/Users\/ebina\/Desktop\/EbinaFramework\/EbinaFramework\/TestAlamo.swift",
       "kind": "Array",
-      "offset": 469,
+      "offset": 417,
       "length": 2,
       "value": "[]"
     }

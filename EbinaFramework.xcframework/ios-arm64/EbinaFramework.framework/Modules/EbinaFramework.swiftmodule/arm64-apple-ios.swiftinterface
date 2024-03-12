@@ -9,8 +9,8 @@ import Swift
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-public class Abc {
+public class Article {
   public init()
-  public func cba() -> Swift.String
+  public func fetchList(callback: @escaping (Swift.Array<Any>) -> Swift.Void)
   @objc deinit
 }
