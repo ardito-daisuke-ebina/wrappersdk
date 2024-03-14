@@ -5,6 +5,7 @@
 import Alamofire
 @_exported import EbinaFramework
 import Foundation
+import Moya
 import Swift
 import _Concurrency
 import _StringProcessing

@@ -110,6 +110,13 @@
         "printedName": "Alamofire",
         "declKind": "Import",
         "moduleName": "EbinaFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "Moya",
+        "printedName": "Moya",
+        "declKind": "Import",
+        "moduleName": "EbinaFramework"
       }
     ],
     "json_format_version": 8
@@ -118,14 +125,14 @@
     {
       "filePath": "\/Users\/ebina\/Desktop\/EbinaFramework\/EbinaFramework\/TestAlamo.swift",
       "kind": "StringLiteral",
-      "offset": 230,
+      "offset": 242,
       "length": 37,
       "value": "\"https:\/\/appdev-room.com\/api\/article\""
     },
     {
       "filePath": "\/Users\/ebina\/Desktop\/EbinaFramework\/EbinaFramework\/TestAlamo.swift",
       "kind": "Array",
-      "offset": 417,
+      "offset": 421,
       "length": 2,
       "value": "[]"
     }

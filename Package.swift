@@ -17,13 +17,15 @@ let package = Package(
             targets: ["EbinaframeworkWrapper"])    // <--- reference the wrapper here
     ],
     dependencies: [
-        .package(url: "https://github.com/Alamofire/Alamofire.git", .upToNextMajor(from: "5.0.0"))
+        .package(url: "https://github.com/Alamofire/Alamofire.git", .upToNextMajor(from: "5.0.0")),
+        .package(url: "https://github.com/Moya/Moya.git", .upToNextMajor(from: "15.0.3"))
     ],
     targets: [
         .target(
             name: "EbinaframeworkWrapper",         // <--- new wrapper
             dependencies: [
                 .product(name: "Alamofire", package: "Alamofire"),
+                .product(name: "Moya", package: "Moya"),
                 .target(name: "EbinaFramework")    // <-- reference the actual binary target here
             ],
             path: "Sources/wrappersdk",
